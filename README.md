@@ -11,6 +11,7 @@ Bais code to upload any excel file
  <br>
  ->   print(data)
  <br>
+ <br>
 To add new row and column using dataframe
 <br>
  ->   import pandas as pd
@@ -23,6 +24,7 @@ To add new row and column using dataframe
  <br>
  ->   print(df)
  <br>
+ <br>
 Checking duplicate in the data
 <br>
 ->   import pandas as pd
@@ -33,9 +35,11 @@ Checking duplicate in the data
  <br>
  ->  print("checking for diplicates=",df.duplicated().sum())
  <br>
+ <br>
 Having information of the data that what kind of datatypes we have
 <br>
  -> print(df.info())
+<br>
 <br>
  For checking small amount of data like the upper head and lower head
  <br>
