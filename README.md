@@ -34,10 +34,16 @@ Checking duplicate in the data
  ->  print("checking for diplicates=",df.duplicated().sum())
  <br>
 Having information of the data that what kind of datatypes we have
+<br>
  -> print(df.info())
-
+<br>
  For checking small amount of data like the upper head and lower head
+ <br>
  -> import panda as pd
+ <br>
  -> data = pd.read_excel("HotelData.xlsx")
+ <br>
  -> print(data.head(10))// to see the starting ones.
+ <br>
  -> print(data.tail(10)) // to see from the ending notes.
+ <br>
