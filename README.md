@@ -4,21 +4,35 @@ Basic Pandas Code
 Author Zain ul Abideen
 <br>
 Bais code to upload any excel file
+<br>
  ->   import pandas as pd
+ <br>
  ->  data = pd.read_excel("HotelData.xlsx")
+ <br>
  ->   print(data)
+ <br>
 To add new row and column using dataframe
+<br>
  ->   import pandas as pd
+ <br>
  ->    Data = {"name":["hassan", "Zain"],
                "age":[22,24],
                "city":["RWP","ISB"]}
+               <br>
  ->   df =pd.DataFrame(Data)
+ <br>
  ->   print(df)
+ <br>
 Checking duplicate in the data
+<br>
 ->   import pandas as pd
+<br>
  ->  data = pd.read_excel("HotelData.xlsx")
+ <br>
  ->  print(df.isnull().sum())
+ <br>
  ->  print("checking for diplicates=",df.duplicated().sum())
+ <br>
 Having information of the data that what kind of datatypes we have
  -> print(df.info())
 
